@@ -22,6 +22,9 @@
  *
  * @see admin_menu.map.inc
  */
+/****
+ * @return mixed branch test
+ */
 function hook_admin_menu_map() {
   // Expand content types below Structure > Content types.
   // The key denotes the dynamic path to expand to multiple menu items.
