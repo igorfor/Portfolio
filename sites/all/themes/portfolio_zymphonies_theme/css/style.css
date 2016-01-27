@@ -314,7 +314,7 @@ aside header{ text-align: center; }
 
 .menu_wrapper{ width: 100%; }
 
-.menu-wrap{ background: #2DD6B5; }
+.menu-wrap{ background: #28A8E0; }
 
 #main-menu { position: relative; }
 
@@ -348,7 +348,7 @@ aside header{ text-align: center; }
 }
 
 header.siteheader{
-  background: #2DD6B5;
+  background: #28A8E0;
   text-align: center;
   padding: 150px 0;
   font-size: 26px;
@@ -1363,6 +1363,7 @@ article,
   height: 100%;
   width: 100%;
   z-index: -1;
+  opacity: 0.3;
 }
 
 .not-front h1#site-title{ margin: 0; }

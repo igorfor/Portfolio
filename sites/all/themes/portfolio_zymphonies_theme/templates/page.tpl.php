@@ -166,7 +166,7 @@
 
                 <?php print render($title_prefix); ?>
 
-                <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
+                <?php /*if ($title): */?><!--<h1 class="page-title"><?php /*print $title; */?></h1>--><?php /*endif; */?>
 
                 <?php if (theme_get_setting('breadcrumbs', 'portfolio_zymphonies_theme')): ?>
 
@@ -186,7 +186,7 @@
                   <ul class="action-links"><?php print render($action_links); ?></ul>
                 <?php endif; ?>
 
-                <?php print render($page['content']); ?>
+                <?php /*print render($page['content']); */?>
 
               </section>
 
@@ -252,13 +252,13 @@
         
       <div id="copyright">
 
-        <div class="copyright">
-          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>
-        </div> 
+        <!--<div class="copyright">
+          <?php /*print t('Copyright'); */?> &copy; <?php /*echo date("Y"); */?>, <?php /*print $site_name; */?>
+        </div> -->
 
-        <div class="credits">
-          <?php print t('Designed by'); ?>  <a href="http://www.zymphonies.com/">Zymphonies</a>
-        </div>
+        <!--<div class="credits">
+          <?php /*print t('Designed by'); */?>  <a href="http://www.zymphonies.com/">Zymphonies</a>
+        </div>-->
 
       </div>
 
